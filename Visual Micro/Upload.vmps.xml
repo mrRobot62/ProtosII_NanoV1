@@ -1,0 +1,141 @@
+<VisualMicro>
+  <Program Name="Protos_II_NanoV1" Ext=".ino" Location="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1">
+    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328" ReportDisassembledView="1" SketchName="Protos_II_NanoV1" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 80;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;" IncludesDebug="1" IsCompiled="1" />
+    <Platform Name="Arduino">
+      <Board CoreFolder="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\cores\arduino" McuIdePath="C:\Apps\Arduino-1.0.5-windows" VariantFullPath="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\variants\eightanaloginputs" Name="mini328" Description="Arduino Mini w/ ATmega328" name="Arduino Mini w/ ATmega328" upload.protocol="stk500" upload.maximum_size="28672" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xd8" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328-Mini.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="eightanaloginputs" runtime.ide.path="C:\Apps\Arduino-1.0.5-windows" build.system.path="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\system" software="ARDUINO" runtime.ide.version="105" build.core.vmresolved="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Apps\Arduino-1.0.5-windows\hardware\arduino" vm.core.include="arduino.h" vm.boardsource.path="C:\Apps\Arduino-1.0.5-windows\hardware\arduino" vm.boardsource.name="boards.txt" vm.platformname.name="" build.variant.vmresolved="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\variants\eightanaloginputs" compiler.path="C:\Apps\Arduino-1.0.5-windows\hardware\tools\avr\bin\" includes=" -I&quot;C:\Apps\Arduino-1.0.5-windows\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Apps\Arduino-1.0.5-windows\hardware\arduino\variants\eightanaloginputs&quot;  -I&quot;C:\Apps\Visual Micro\Visual Micro for Arduino\Micro Platforms\Arduino\Templates\Hardware\Debuggers\VM_DBG&quot;  -I&quot;C:\Apps\Arduino-1.0.5-windows\libraries\os_wrap&quot;  -I&quot;C:\Apps\Arduino-1.0.5-windows\libraries\Logging&quot;  -I&quot;C:\Apps\Arduino-1.0.5-windows\libraries\SR04&quot; " build.path="C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328" build.project_name="Protos_II_NanoV1" build.variant.path="C:\Apps\Arduino-1.0.5-windows\hardware\arduino\variants\eightanaloginputs" archive_file="core.a" object_file="&quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\SR04\SR04.cpp.o&quot;" source_file="&quot;C:\Apps\Arduino-1.0.5-windows\libraries\SR04\SR04.cpp&quot;" object_files="&quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\L293D.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\Motoren.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\Protos_II_NanoV1.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\VM_DBG\VM_mem_check.c.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\VM_DBG\VM_DBG.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\os_wrap\os_wrap.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\Logging\Logging.cpp.o&quot; &quot;C:\Users\Bernd\AppData\Local\VMicro\Arduino\Builds\Protos_II_NanoV1\mini328\SR04\SR04.cpp.o&quot; " />
+    </Platform>
+    <Debug RemotePortTransport="HardwareSerial" DebugMode="Full" DebugEnabled="1" LocalPort="COM5" JumpToSource="0" EnableBreak="0" StartUpDelay="1000" StartUpMessage="&quot;************* Debug online ***************&quot;" RemotePortSpeed="38400" LocalPortSpeed="38400" />
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="Protos_II_NanoV1.ino, line 276 character 1" Id="003aa80a-e15c-4d04-aa39-cd15a3be6470" Enabled="1" Message="TASK_Motor::Speed({currentSpeed.A},{currentSpeed.B})" MessageTextType="0" PreProcessedMessage="TASK_Motor::Speed({0},{1})" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="276" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='003aa80a-e15c-4d04-aa39-cd15a3be6470'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>269			int result = priQ.priQreceive(&amp;pri, (char*)&amp;currentSpeed, sizeof(currentSpeed));
+270	
+271			if (result == OSW_SINGLE_THREAD) {
+272				break;    //return OSW_NULL;
+273			}
+274	
+275			//        Log.Info("MOTOR new speed [A:%d, B:%d, P:%d]"CR, currentSpeed.A, currentSpeed.B, currentSpeed.prio);
+--&gt;276			antrieb.Speed(currentSpeed.A,currentSpeed.B);
+277	
+278			if (currentSpeed.delay &gt; 0) {
+279				taskMotor.deactivate();
+280				//            Log.Info("DELAY %d", currentSpeed.delay);
+281	
+282				while (taskDelay.delay(currentSpeed.delay) != OSW_OK) {
+283					;
+284				}
+285	
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="currentSpeed.A" Index="1" />
+          <MessageVariable Name="currentSpeed.B" Index="2" />
+        </MessageVariables>
+      </BreakPoint>
+      <BreakPoint Index="2" Name="Protos_II_NanoV1.ino, line 279 character 1" Id="668594c9-b147-45b4-9b00-eb29cdda984b" Enabled="1" Message="TASK_Motor::delay ({currentSpeed.delay})" MessageTextType="0" PreProcessedMessage="TASK_Motor::delay ({0})" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="279" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='668594c9-b147-45b4-9b00-eb29cdda984b'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>272				break;    //return OSW_NULL;
+273			}
+274	
+275			//        Log.Info("MOTOR new speed [A:%d, B:%d, P:%d]"CR, currentSpeed.A, currentSpeed.B, currentSpeed.prio);
+276			antrieb.Speed(currentSpeed.A,currentSpeed.B);
+277	
+278			if (currentSpeed.delay &gt; 0) {
+--&gt;279				taskMotor.deactivate();
+280				//            Log.Info("DELAY %d", currentSpeed.delay);
+281	
+282				while (taskDelay.delay(currentSpeed.delay) != OSW_OK) {
+283					;
+284				}
+285	
+286				//            Log.Info(" finished"CR);
+287				taskMotor.activate();
+288	
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="currentSpeed.delay" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+      <BreakPoint Index="3" Name="Protos_II_NanoV1.ino, line 224 character 1" Id="3981ec4e-a77a-4e0b-a76a-0947113a7a64" Enabled="1" Message="TASK_Pattern" MessageTextType="0" PreProcessedMessage="TASK_Pattern" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="224" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='3981ec4e-a77a-4e0b-a76a-0947113a7a64'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>217	void* TASK_Pattern(void* _pData)
+218	{
+219		T_SPEED currentSpeed;
+220		randomSeed(millis());
+221		byte pattern = random(6);
+222		currentSpeed.prio = 1;
+223	
+--&gt;224		switch(pattern) {
+225			case 0:
+226			currentSpeed.A = 200;
+227			currentSpeed.B = 250;
+228			break;
+229	
+230			case 1:
+231			currentSpeed.A = 250;
+232			currentSpeed.B = 200;
+233			break;
+</Source>
+      </BreakPoint>
+      <BreakPoint Index="4" Name="Protos_II_NanoV1.ino, line 132 character 1" Id="31b4742a-d200-49a5-ad13-6d0ff913c659" Enabled="1" Message="TASK_CNY70 =&gt; backward" MessageTextType="0" PreProcessedMessage="TASK_CNY70 =&gt; backward" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="132" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='31b4742a-d200-49a5-ad13-6d0ff913c659'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>125	
+126		//
+127		// r�ckw�rts
+128		currentSpeed.prio = 3;
+129		currentSpeed.A = -255;
+130		currentSpeed.B = -255;
+131		currentSpeed.delay = 200;
+--&gt;132		result = priQ.priQsend(3, (char*)&amp;currentSpeed, sizeof(currentSpeed), OSW_PRIQ_BUMP_LOW_HEAD_FULL);
+133	
+134		// links &amp; rechts
+135		if (isTmpWhite[0] &amp;&amp; isTmpWhite[1])  {
+136			// zuf�llig links oder rechts drehen lassen
+137			isTmpWhite[random(2)]=false;
+138		}
+139	
+140		// links weiss
+141		if (isTmpWhite[0])	{
+</Source>
+      </BreakPoint>
+      <BreakPoint Index="5" Name="Protos_II_NanoV1.ino, line 153 character 1" Id="76b3e416-cd86-49d8-9072-cfb84dcc0a1d" Enabled="1" Message="TASK_CNY70 =&gt; turn" MessageTextType="0" PreProcessedMessage="TASK_CNY70 =&gt; turn" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="153" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='76b3e416-cd86-49d8-9072-cfb84dcc0a1d'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>146		// rechts weiss
+147		if (isTmpWhite[1])  {
+148			currentSpeed.A = -255;
+149			currentSpeed.B = 255;
+150		}
+151	
+152		currentSpeed.delay = 200;
+--&gt;153		result = priQ.priQsend(3, (char*)&amp;currentSpeed, sizeof(currentSpeed), OSW_PRIQ_BUMP_LOW_HEAD_FULL);
+154		// vorw�rts
+155		currentSpeed.A = 255;
+156		currentSpeed.B = 255;
+157		currentSpeed.delay = 0;
+158		result = priQ.priQsend(currentSpeed.prio, (char*)&amp;currentSpeed, sizeof(currentSpeed), OSW_PRIQ_BUMP_LOW_HEAD_FULL);
+159		Log.Info("=== TASK_CNY70"CR);
+160	
+161		// Tabelle resetten
+162		isWhite[0] = isWhite[1] = false;
+</Source>
+      </BreakPoint>
+      <BreakPoint Index="6" Name="Protos_II_NanoV1.ino, line 158 character 1" Id="80051ec7-8442-4cc4-ad57-43cac9550961" Enabled="1" Message="TASK_CNY70 =&gt; forward" MessageTextType="0" PreProcessedMessage="TASK_CNY70 =&gt; forward" Condition="" ConditionType="1" CurrentHits="0" File="C:\Projekte\Dropbox\Robocup 2012\99_Bernd\Work\SumoRobot\Protos_II_NanoV1\Protos_II_NanoV1.ino" FileLine="158" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='80051ec7-8442-4cc4-ad57-43cac9550961'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>151	
+152		currentSpeed.delay = 200;
+153		result = priQ.priQsend(3, (char*)&amp;currentSpeed, sizeof(currentSpeed), OSW_PRIQ_BUMP_LOW_HEAD_FULL);
+154		// vorw�rts
+155		currentSpeed.A = 255;
+156		currentSpeed.B = 255;
+157		currentSpeed.delay = 0;
+--&gt;158		result = priQ.priQsend(currentSpeed.prio, (char*)&amp;currentSpeed, sizeof(currentSpeed), OSW_PRIQ_BUMP_LOW_HEAD_FULL);
+159		Log.Info("=== TASK_CNY70"CR);
+160	
+161		// Tabelle resetten
+162		isWhite[0] = isWhite[1] = false;
+163	
+164		taskCNY70.activate();
+165		attachInterrupt(0,ISR_INT0,FALLING);
+166		attachInterrupt(1,ISR_INT1,FALLING);
+167		return OSW_NULL;
+</Source>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>
